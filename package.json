@@ -1,0 +1,23 @@
+{
+  "name": "parallel-code-lib",
+  "version": "0.1.0",
+  "description": "Headless library for parallel-code git worktree management",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "node-pty": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
